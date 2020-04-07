@@ -13,6 +13,7 @@ public class AmazonTask {
         int test9[] = {1, 1, 1}; // 3
         int test10[] = {0, 1, 0 , 0, 1, 0, 1, 1 ,1 ,1}; //6
         int test11[] = {0, 1, 0 , 0, 1, 1 ,1 ,1 , 0}; // 5
+        int test12[] = {0,0,1,1,1,0,1,1,1,1,0,1,1,1,1,1,0,0}; // 10
 
         System.out.println(findLongestSeq(test1));
         System.out.println(findLongestSeq(test2));
@@ -25,6 +26,7 @@ public class AmazonTask {
         System.out.println(findLongestSeq(test9));
         System.out.println(findLongestSeq(test10));
         System.out.println(findLongestSeq(test11));
+        System.out.println(findLongestSeq(test12));
     }
     public static int findLongestSeq(int [] input) {
         if (input.length <= 1)
